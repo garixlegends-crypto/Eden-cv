@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 62.5%;
+}
+
+header {
+  background: url(../img/bandeau.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 1000px;
+  padding: 30px;
+  color: #FFFFFF;
+}
+header #d-flex-margin {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+header #d-flex-margin #h1-p {
+  padding-top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header #d-flex-margin #h1-p h1 {
+  font-size: 8.5rem;
+  margin: inherit;
+}
+header #d-flex-margin #h1-p h2 {
+  font-size: 2.5rem;
+  margin: inherit;
+  letter-spacing: 3px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+a:hover {
+  color: red;
+}
+
+.container {
+  font-size: 1.4rem;
+  margin: auto;
+  width: 75%;
+}
+.container #menu {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 15.8vw;
+  padding-left: 15.8vw;
+  gap: 1vw;
+  flex-wrap: wrap;
+}
+.container #menu li {
+  list-style: none;
+  text-decoration: none;
+}
+.container #menu li a {
+  font-weight: bolder;
+  color: hsl(240deg, 3%, 19%);
+  text-transform: uppercase;
+  list-style: none;
+  text-decoration: none;
+}
+.container #menu #blue-link {
+  color: #409f9c;
+}
+.container #mg-auto-75 {
+  display: flex;
+  margin: auto;
+  width: 75%;
+  padding-top: 100px;
+}
+.container #mg-auto-75 h2 {
+  font-size: 4rem;
+  text-transform: uppercase;
+  margin: inherit;
+}
+.container #mg-auto-75 #h2 {
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: inherit;
+}
+.container #mg-auto-75 img {
+  width: 30%;
+  border-radius: 50%;
+}
+.container #mg-auto-75 p {
+  width: 75%;
+}
+
+.container-fluid {
+  background-color: #409f9c;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 75px;
+}
+.container-fluid h2 {
+  padding: 5vw;
+  font-size: 2rem;
+  text-align: center;
+  color: white;
+  width: 60%;
+}
+
+/*# sourceMappingURL=style.css.map */
